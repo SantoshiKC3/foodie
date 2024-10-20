@@ -15,3 +15,9 @@ write -> add -> commit
 // in git commit we will say git commit -m "custom message"
 
 i am continuing to write add and code until i remember the git command
+
+
+git log // helps to know who committed on what time  and what was the commit
+git log --oneline // helps to know who committed thins in short version
+
+
