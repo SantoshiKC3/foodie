@@ -14,3 +14,4 @@ write -> add -> commit
 // in add we will add the file  with git add ./frontend/src/App.css
 // in git commit we will say git commit -m "custom message"
 
+i am continuing to write add and code until i remember the git command
