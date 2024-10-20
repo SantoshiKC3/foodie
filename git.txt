@@ -1,0 +1,16 @@
+i was trying to learn the git and github from chai aur code, 
+
+
+i have learned the following command
+
+git status
+git init
+
+write -> add -> commit
+
+
+//in write we have to write the code then 
+
+// in add we will add the file  with git add ./frontend/src/App.css
+// in git commit we will say git commit -m "custom message"
+
