@@ -21,3 +21,12 @@ git log // helps to know who committed on what time  and what was the commit
 git log --oneline // helps to know who committed thins in short version
 
 
+
+
+
+
+
+gitbub push garne kasari
+
+
+git push -u origin main
