@@ -8,6 +8,14 @@ npm create vite@latest foodie -- --template react
 
 ```
 
+change directory to foodie
+```bash
+cd foodie
+
+```
+
+
+
 to run the code 
 ```bash
 npm run dev
