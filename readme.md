@@ -9,8 +9,7 @@ npm create vite@latest foodie -- --template react
 ```
 
 to run the code 
-```
-bash
+```bash
 npm run dev
 
 ```
