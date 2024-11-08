@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, Sans-serif;
+    font-family: Josefin Sans, Arial, Helvetica, Sans-serif;
   }
 
   .footer {
@@ -10,6 +10,13 @@
     height:auto;
     background-color: #475834;
     /* border: 1px solid red; */
+    padding: 2rem 0;
+  }
+  .footer .contain{
+    max-width: 1100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
   }
   .footer .col {
     width: 190px;
@@ -75,6 +82,9 @@
     }
     .social h1 {
       margin: 0px;
+    }
+    .social  ul li svg {
+      fill: #E0475B;
     }
   }
   @media only screen and (max-width: 950px) {

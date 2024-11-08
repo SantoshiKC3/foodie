@@ -1,4 +1,9 @@
 import React from 'react'
+import Facebook from '../../assets/icons/facebook.svg';
+import Instagram from '../../assets/icons/instagram.svg';
+import Twitter from '../../assets/icons/twitter.svg';
+import FoodieOrange from '../../assets/logo/foodie-orange.png';
+
 import './footer.css'
 
 const Footer = () => {
@@ -6,6 +11,18 @@ const Footer = () => {
 
         <><div className="footer">
                 <div className="contain">
+                <div className="col social">
+                        <a href="#"><img src={FoodieOrange} alt="" /></a>
+                        <h1>Social Links</h1>
+                        <ul>
+                        <li>
+                            <a href="#"><img src={Twitter} width="32" alt="Social Icon 1" /></a>
+                            </li>
+                        <li><a href="#"><img src={Instagram} width="32" alt="Social Icon 2" /></a></li>
+                        <li><a href="#"><img src={Facebook} width="32" alt="Social Icon 2" /></a></li>
+                        </ul>
+                    </div>
+                    
                     <div className="col">
                         <h1>Company</h1>
                         <ul>
@@ -36,33 +53,8 @@ const Footer = () => {
                             <li>Get in touch</li>
                         </ul>
                     </div>
-                    <div className="col">
-                        <h1>Resources</h1>
-                        <ul>
-                            <li>Webmail</li>
-                            <li>Redeem code</li>
-                            <li>WHOIS lookup</li>
-                            <li>Site map</li>
-                            <li>Web templates</li>
-                            <li>Email templates</li>
-                        </ul>
-                    </div>
-                    <div className="col">
-                        <h1>Support</h1>
-                        <ul>
-                            <li>Contact us</li>
-                            <li>Web chat</li>
-                            <li>Open ticket</li>
-                        </ul>
-                    </div>
-                    <div className="col social">
-                        <h1>Social</h1>
-                        <ul>
-                        <li><img src="https://svgshare.com/i/5fq.svg" width="32" alt="Social Icon 1" /></li>
-                        <li><img src="https://svgshare.com/i/5eA.svg" width="32" alt="Social Icon 2" /></li>
-                        <li><img src="https://svgshare.com/i/5f_.svg" width="32" alt="Social Icon 3" /></li>
-                        </ul>
-                    </div>
+                    
+
                     <div className="clearfix"></div>
                 </div>
             </div>

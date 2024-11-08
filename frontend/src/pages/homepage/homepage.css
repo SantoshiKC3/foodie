@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+.banner{
+    background-image: url(../../assets/images/banner-img.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 612px;
+}
