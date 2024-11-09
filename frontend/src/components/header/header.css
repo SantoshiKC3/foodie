@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+    flex: 0 0 25%; 
+    /* border: 1px solid red; */
+}
+.link-wrapper{
+    flex: 1;
+    width: max-content;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+}
+.link-wrapper a{
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.link-wrapper a:hover{
+    color: #475834;
+}
+.link-wrapper a:hover .icon{
+    filter: brightness(0) saturate(100%) invert(33%) sepia(22%) saturate(1909%) hue-rotate(47deg) brightness(90%) contrast(90%);
+
+}
+.link-wrapper a img{
+    display: inline;
+}
