@@ -7,9 +7,9 @@
 }
 
 .banner {
-    background-image: url(../../assets/images/banner-img.jpg);
+    background-image: url(../../assets/images/banner_img.jpg);
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 650px;
     background-position: center;
     background-size: cover;
@@ -57,3 +57,7 @@
     width: 700px;
     border-radius: 8px;
 }
+
+.glassmorphism .banner-img{
+    animation: fadeIn 2s ease-in-out;
+};

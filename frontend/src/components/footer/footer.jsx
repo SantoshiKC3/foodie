@@ -1,7 +1,5 @@
 import React from 'react'
-import Facebook from '../../assets/icons/facebook.svg';
-import Instagram from '../../assets/icons/instagram.svg';
-import Twitter from '../../assets/icons/twitter.svg';
+import icons from '../../assets/icons/icons.js'
 import FoodieOrange from '../../assets/logo/foodie-orange.png';
 
 import './footer.css'
@@ -16,10 +14,10 @@ const Footer = () => {
                         <h1>Social Links</h1>
                         <ul>
                         <li>
-                            <a href="#"><img src={Twitter} width="32" alt="Social Icon 1" /></a>
+                            <a href="#"><img src={icons.twitter} width="32" alt="Social Icon 1" /></a>
                             </li>
-                        <li><a href="#"><img src={Instagram} width="32" alt="Social Icon 2" /></a></li>
-                        <li><a href="#"><img src={Facebook} width="32" alt="Social Icon 2" /></a></li>
+                        <li><a href="#"><img src={icons.instagram} width="32" alt="Social Icon 2" /></a></li>
+                        <li><a href="#"><img src={icons.facebook} width="32" alt="Social Icon 2" /></a></li>
                         </ul>
                     </div>
                     

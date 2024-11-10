@@ -2,7 +2,9 @@ import React from 'react'
 import './homepage.css'
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
-import BannerFood from '../../assets/images/banner-food.png';
+import { images } from '../../assets/images/images.js';
+// import Exploremenu from '../../components/exploremenu/exploremenu.jsx';
+
 
 
 const Homepage = () => {
@@ -16,11 +18,12 @@ const Homepage = () => {
               <div className="searchbar">
                 <input type="text" placeholder="Search Food" />
               </div>
-              <img src={BannerFood} alt="Foods Img" />
+              <img className='banner-img' src={images.banner_food} alt="Foods Img" />
               </div>
             </div>
         </div>
       </div>
+      {/* <Exploremenu/> */}
       <Footer />
     </>
   );
