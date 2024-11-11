@@ -6,18 +6,16 @@ import Cart from './pages/cart/cart'
 import Placeorder from './pages/placeorder/placeorder'
 
 
-function App() {
-
+const App = () => {
   return (
     <>
-    {/* <Homepage/> */}
     <Routes>
       <Route path='/' element={<Homepage/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/order' element={<Placeorder/>}/>
     </Routes>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

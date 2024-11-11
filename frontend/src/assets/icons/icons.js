@@ -40,10 +40,12 @@ export default icons;
 
 
 
-// export const icons ={
+// const icons = [
 //     cart,
 //     facebook,
 //     instagram,
 //     twitter,
 //     user
-// }
+// ]
+
+// export default icons;
