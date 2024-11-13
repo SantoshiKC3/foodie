@@ -1,0 +1,30 @@
+.food-display{
+    margin-top: 30px;
+    max-width: 1100px;
+    margin: 48px auto;
+    /* border: 1px solid red; */
+}
+
+.food-display h2{
+    font-family: Josefin Sans;
+    font-size: max(2vw,24px);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.food-display-list{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 32px;
+    row-gap: 32px;
+}
+
+:root .h2we {
+    color: white; 
+}
+
+/* Remove filter from h2 elements in lightcolors theme */
+.lightcolors .h2we {
+    color: black
+}
